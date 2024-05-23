@@ -1,0 +1,53 @@
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    background-color:darkgrey;
+    font-size: 20PX;
+    
+}
+
+.nav-log img{
+    width: 230px;
+    margin-top: 10px ;
+    margin-left: 10px;
+}
+
+.nav-home{
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+.nav-home a{
+    text-decoration: none;
+    color: brown;
+}
+
+.nav-conta{
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 20px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+}
+
+.nav-conta a{
+    text-decoration: none;
+    color: brown; 
+}
+
+.nav-link li{    
+    display: flex;
+    float: left;
+    padding: 25px;
+}
+
+.nav-link a{
+    text-decoration: none;
+}
